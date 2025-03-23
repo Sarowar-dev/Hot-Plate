@@ -66,8 +66,8 @@ body {
   }
   
   .main_box .main div div {
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     border: 2px black solid;
     border-radius: 1rem;
     display: flex;
@@ -134,6 +134,7 @@ body {
   @media (max-width:480px) {
     body {
         font-size:14px;
+        flex-direction: column;
     }
   }
 
@@ -143,6 +144,9 @@ body {
     }
     .main .food-item{
         flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 250px;
     }
   }
   .food-item button{
